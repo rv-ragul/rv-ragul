@@ -50,8 +50,7 @@ I am currently studying 4th year in Anna University Regional Campus Coimbatore.
 ## CONFERENCE
 
 - [State of Stateless - A Talk about Immutability and Reproducibility in Debian](https://debconf23.debconf.org/talks/41-state-of-stateless-a-talk-about-immutability-and-reproducibility-in-debian/)
-<br>
-Presented a talk on DebConf23 about Immutability, Reproducibility in Debian.
+<br>Presented a talk on DebConf23 about Immutability, Reproducibility in Debian.
 
 ## EXPERIENCE
 
