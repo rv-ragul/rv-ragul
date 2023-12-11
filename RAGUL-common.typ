@@ -291,18 +291,17 @@
   skills(
     (title: "Programming languages", skills: (
       "C",
-      "C++",
-      "Python",
-      "Java",
-      "Kotlin",
       "Rust",
+      "Python",
       "Javascript",
       "PHP",
+      "Java",
+      "Kotlin",
       "Lua",
     )),
     (
       title: "Tools",
-      skills: ("Git", "docker", "podman", "keycloak", "meson", "make"),
+      skills: ("Git", "docker", "podman", "keycloak", "meson"),
     ),
     (title: "Frameworks", skills: ("FastAPI", "NuxtJs", "VueJs", "Flask")),
     (
