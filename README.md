@@ -22,17 +22,17 @@ I am currently studying 4th year in Anna University Regional Campus Coimbatore.
 
 ## PROJECTS
 
-### API Server [https://api.aurcc.in](https://api.aurcc.in)
+### API Server ([https://api.aurcc.in](https://api.aurcc.in))
 
 - An API server for all the services running in our university domain.
 - Tech Stack: Python, FastAPI, Keycloak, Python, PostgreSQL, SQLAlchemy
 
-### DAMS [https://dams.aurcc.in](https://dams.aurcc.in)
+### DAMS ([https://dams.aurcc.in](https://dams.aurcc.in))
 
 - A web app for student attendance managment system.
 - Tech Stack: Keycloak, podman, Vue.js
 
-### AUSMART [https://ausmart.aurcc.in](https://ausmart.aurcc.in)
+### AUSMART ([https://ausmart.aurcc.in](https://ausmart.aurcc.in))
 
 - A web app for college students to give suggestions to the Dean of college securely
 - Tech Stack: Keycloak, podman, Vue.js, Telegram Bot API
@@ -42,7 +42,7 @@ I am currently studying 4th year in Anna University Regional Campus Coimbatore.
 - A web app to show important news and announcements to college students
 - Tech Stack: Python, GTK, Webkit, HTML, Next Cloud
 
-### DLAPP [https://dlapp.aurcc.in](https://dlapp.aurcc.in)
+### DLAPP ([https://dlapp.aurcc.in](https://dlapp.aurcc.in))
 
 - An Android and a web app to request permission from HOD & Dean of AURCC
 - Tech Stack: Kotlin, Nuxt, tailwind css, daisyUI, Firebase Realtime Database and FCM
@@ -50,6 +50,7 @@ I am currently studying 4th year in Anna University Regional Campus Coimbatore.
 ## CONFERENCE
 
 - [State of Stateless - A Talk about Immutability and Reproducibility in Debian](https://debconf23.debconf.org/talks/41-state-of-stateless-a-talk-about-immutability-and-reproducibility-in-debian/)
+<br>
 Presented a talk on DebConf23 about Immutability, Reproducibility in Debian.
 
 ## EXPERIENCE
