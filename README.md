@@ -22,17 +22,17 @@ I am currently studying 4th year in Anna University Regional Campus Coimbatore.
 
 ## PROJECTS
 
-### API Server
+### API Server [ https://api.aurcc.in ]
 
 - An API server for all the services running in our university domain.
 - Tech Stack: Python, FastAPI, Keycloak, Python, PostgreSQL, SQLAlchemy
 
-### DAMS
+### DAMS [ https://dams.aurcc.in ]
 
 - A web app for student attendance managment system.
 - Tech Stack: Keycloak, podman, Vue.js
 
-### AUSMART
+### AUSMART [ https://ausmart.aurcc.in ]
 
 - A web app for college students to give suggestions to the Dean of college securely
 - Tech Stack: Keycloak, podman, Vue.js, Telegram Bot API
@@ -42,7 +42,7 @@ I am currently studying 4th year in Anna University Regional Campus Coimbatore.
 - A web app to show important news and announcements to college students
 - Tech Stack: Python, GTK, Webkit, HTML, Next Cloud
 
-### DLAPP
+### DLAPP [ https://dlapp.aurcc.in ]
 
 - An Android and a web app to request permission from HOD & Dean of AURCC
 - Tech Stack: Kotlin, Nuxt, tailwind css, daisyUI, Firebase Realtime Database and FCM
@@ -63,5 +63,5 @@ Presented a talk on DebConf23 about Immutability, Reproducibility in Debian.
 ### Secretary of Tamil Mandram
 
 - Anna University Regional Campus, Coimbatore
-    - Conducted various competetions for Independence day2023
+    - Conducted various competetions for Independence day 2023
     - Organized an event called தமிழ் 4.0 to create awareness about FOSS
