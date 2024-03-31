@@ -1,6 +1,10 @@
-#show link: it=> underline(text(fill: blue, it.body))
 #set text(size: 13pt)
 #set page(margin: (x: 1.5cm, y: 1.5cm) )
+
+/// Custom link
+#let custom_link(dest, desc)={
+  link(dest, underline(text(fill:blue,desc)))
+}
 
 /// Some useful functions
 #let page_header(header) = {
@@ -15,7 +19,7 @@
 
   align(center, heading(name))
   block(spacing:0.3cm, width:100%, align(center, [#contact #separator #address]))
-  block(spacing:0.3cm, width:100%, align(center,[#link(mail)[#mail] #separator #link(github)[#github] #separator #link(gitlab)[#gitlab]]))
+  block(spacing:0.3cm, width:100%, align(center,[#underline(text(fill:blue, link("mailto:"+mail))) #separator #custom_link(github)[#github] #separator #custom_link(gitlab)[#gitlab]]))
   
 }
 
@@ -41,12 +45,12 @@
 #let project(project) = {
   let desc = project.at("desc", default: "")
   let tech = project.at("tech", default: "")
-  let _link = project.at("link", default: "")
+  let project_link = project.at("link", default: "")
 
   heading(level: 3)[
     #project.name
-    #if _link != "" [
-      ( #link(_link) )
+    #if project_link != "" [
+      ( #custom_link(project_link)[#project_link] )
     ]
   ]
   list(text(desc) + linebreak())
@@ -58,13 +62,13 @@
 
 #let conference(conference) = {
   let title = conference.at("title", default: "")
-  let _link = conference.at("_link", default: "")
+  let _link = conference.at("link", default: "")
   let event = conference.at("event", default: "")
   let desc = conference.at("desc", default: "")
 
   grid(
     columns: (5fr, 1fr),
-    heading(level: 3, link(_link, text(size: 12pt, title))),
+    heading(level: 3, custom_link(_link, text(size: 12pt, title))),
     align(right, event)
   )
   desc
@@ -137,8 +141,8 @@
     contact: "+91 6374554600",
     mail: "ragul542rv@gmail.com",
     address: "Perambalur, Tamil Nadu, India",
-    github: "github.com/rv-ragul",
-    gitlab: "gitlab.com/rv-ragul"
+    github: "https://github.com/rv-ragul",
+    gitlab: "https://gitlab.com/rv-ragul"
   )
 )
 
@@ -156,16 +160,16 @@
       ),
     ),
   ),
-  achievement(
-    (
-      title: "First Prize in Ideathon",
-      year: "2023",
-      points: (
-        "Conducted by KPR college of Technology, Coimbatore",
-        "Proposed a black box based solution for the routing of emergency vehicle",
-      ),
-    ),
-  ),
+  // achievement(
+  //   (
+  //     title: "First Prize in Ideathon",
+  //     year: "2023",
+  //     points: (
+  //       "Conducted by KPR college of Technology, Coimbatore",
+  //       "Proposed a black box based solution for the routing of emergency vehicle",
+  //     ),
+  //   ),
+  // ),
   achievement(
     (
       title: "Certificate for the development of DLAPP",
